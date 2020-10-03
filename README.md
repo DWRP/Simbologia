@@ -1,4 +1,4 @@
-# Nome do produto
+# simbologia
 Descrição curta sobre o que seu projeto faz.
 
 [![NPM Version][npm-image]][npm-url]
@@ -39,6 +39,10 @@ npm test
 ```
 
 ## Histórico de lançamentos
+
+* 0.1.1
+    * ADD: Database e scripts
+    * MUDANÇA: Button function and data generation
 
 * 0.1.0
     * ADD: Novo Readme (incompleto) e Novo index, refeito para escalonar projeto

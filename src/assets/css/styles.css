@@ -6,13 +6,32 @@
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
 }
 
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
 html, body, .container{
-  overflow-y: hidden;
 
   width: 100%;
   height: 100%;
   background: #202325;
   color: white;
+  
 }
 
 .container{
@@ -22,6 +41,9 @@ html, body, .container{
 }
 
 .navbar{
+  grid-column: 1/2;
+  grid-row: 1/2;
+
   display: flex;
   justify-content: left;
   align-items: center;
@@ -36,9 +58,7 @@ html, body, .container{
 }
 
 .navbar a{
-  grid-column: 1/2;
-  grid-row: 1/2;
-
+  
   display: flex;
   align-items: center;
 
@@ -60,7 +80,7 @@ html, body, .container{
   grid-row: 2/3;
 
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 
   justify-content: center;
   align-items: center;
@@ -68,8 +88,9 @@ html, body, .container{
 
 .content{
   overflow-y: scroll;
+  max-height: 80vh;
 
-  width: 90%;
+  width: 50%;
   height: 90%;
 
   display: flex;
@@ -79,9 +100,18 @@ html, body, .container{
   justify-content: space-evenly;
   align-items: center;
   
-  padding: 14px;
+  padding: 16px;
 
   background: #343a40;
+}
+
+.preview{
+  width: 50%;
+}
+
+.selected{
+  color: white;
+  background: green !important;
 }
 
 .content button{
@@ -91,8 +121,8 @@ html, body, .container{
   min-width: 125px;
   min-height: 125px;
 
-  margin: 4px;
-  padding: 0 4px;
+  margin: 16px 4px;
+  padding: 0 8px;
   display: flex;
   flex-direction: column;
 
@@ -103,14 +133,16 @@ html, body, .container{
   border-radius: 12px;
 
   background: #FFF;
+
+  cursor: pointer;
 }
 
 .button_img{
   display: flex;
   align-items: center;
 
-  max-width: 85px;
-  max-height: 85px;
+  max-width: 65px;
+  max-height: 65px;
 
   width: 100vw;
   height: 100vh;
@@ -131,18 +163,23 @@ html, body, .container{
   grid-row: 3/4;
 
   display: flex;
-  justify-content: center;
+  flex-direction: row;
+
+  justify-content: space-between;
   align-items: center;
+  
   background-color: #343a40; 
   height: 50px;
   color: white;
+
+  padding: 0 30px;
 }
 
-.footer a{
+.footer div a{
   color: inherit;
   text-decoration: none;
 }
 
-.footer a:hover{
+.footer div a:hover{
   color:rgb(0, 255, 0);
 }
