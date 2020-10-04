@@ -40,6 +40,10 @@ npm test
 
 ## Histórico de lançamentos
 
+* 0.1.2
+    * ADD: Manifest.json
+    * MUDANÇA: Configurações do projeto.
+
 * 0.1.1
     * ADD: Database e scripts
     * MUDANÇA: Button function and data generation

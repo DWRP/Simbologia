@@ -1,0 +1,14 @@
+{
+    "vendor":"gabrielgm99",
+    "name":"simbologia",
+    "author":"https://github.com/GabrielGM99",
+    "contributors":[
+        "https://github.com/DWRP"
+    ],
+    "title": "Simbologia",
+    "description": "SPA desenvolvido para a criação de simbologias e uso interno dos colaboradores da empresa EDP/ES-BR",
+    "defaultLocale": "pt-BR",
+    "repository":"https://github.com/GabrielGM99/Simbologia",
+    "version":"0.1.2",
+    "$schema": "http://json-schema.org/draft-07/schema"
+}
