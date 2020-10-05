@@ -1,77 +1,51 @@
-# simbologia
-Descrição curta sobre o que seu projeto faz.
+# SIMBOLOGIA
+Simbologias de croquis
 
-[![NPM Version][npm-image]][npm-url]
-[![Build Status][travis-image]][travis-url]
-[![Downloads Stats][npm-downloads]][npm-url]
+![GitHub manifest version](https://img.shields.io/github/manifest-json/v/DWRP/Simbologia/development?color=%2300FF&style=flat-square)
+![GitHub forks](https://img.shields.io/github/forks/GabrielGM99/Simbologia?style=flat-square)
+![GitHub Author](https://img.shields.io/badge/Autor-Gabriel%20Gomes-green?color=red&label=Autor&style=flat-square)
 
-De um a dois parágrafos sobre o que é seu projeto e o que ele faz.
-
-![](social-preview.png)
-
-## Instalação
-
-OS X & Linux:
-
-```sh
-npm install my-crazy-module --save
-```
-
-Windows:
-
-```sh
-edit autoexec.bat
-```
+SPA desenvolvido para a criação de simbologias e uso interno dos colaboradores da empresa EDP/ES-BR
 
 ## Exemplo de uso
 
-Alguns exemplos interessantes e úteis sobre como seu projeto pode ser utilizado. Adicione blocos de códigos e, se necessário, screenshots.
+Pode ser usado para criar imagens dinâmicas para a identificação de estruturas em Croquis de rede elétrica.
 
-_Para mais exemplos, consulte a [Wiki][wiki]._ 
-
-## Configuração para Desenvolvimento
-
-Descreva como instalar todas as dependências para desenvolvimento e como rodar um test-suite automatizado de algum tipo. Se necessário, faça isso para múltiplas plataformas.
-
-```sh
-make install
-npm test
-```
+_Para entendimento do que se trata, só visualizando o projeto!._
 
 ## Histórico de lançamentos
 
+* 0.1.3
+  * ADD: Funções para atualizar e limpar preview, botão de download e funcionalidade. Licença.
+  * MUDANÇA: Layout duplo, novo modelo de visualização dinâmica e preview constante. Este readme.
+  * CORRIGIDO: Layout incompleto, erros de responsividade e footer flutuante.
+  * NÃO CORRIGIDO: Geração e download errado e responsividade de item do preview.
+
 * 0.1.2
-    * ADD: Manifest.json
-    * MUDANÇA: Configurações do projeto.
+  * ADD: Manifest.json
+  * MUDANÇA: Configurações do projeto.
 
 * 0.1.1
-    * ADD: Database e scripts
-    * MUDANÇA: Button function and data generation
+  * ADD: Database e scripts
+  * MUDANÇA: Button function and data generation
 
 * 0.1.0
-    * ADD: Novo Readme (incompleto) e Novo index, refeito para escalonar projeto
-    * MUDANÇA: Alterada estrutura de pastas e arquivos
-    * REMOVIDO: Bootstrap
+  * ADD: Novo Readme (incompleto) e Novo index, refeito para escalonar projeto
+  * MUDANÇA: Alterada estrutura de pastas e arquivos
+  * REMOVIDO: Bootstrap
 
 ## Meta
 
-Seu Nome – [@SeuNome](https://twitter.com/...) – SeuEmail@exemplo.com
+Gabriel Gomes Morais – [Linkedin](https://www.linkedin.com/in/gabriel-gomes-morais-518b33194/)
 
-Distribuído sob a licença XYZ. Veja `LICENSE` para mais informações.
+Distribuído sob a licença CC0 1.0 Universal. Veja `LICENSE` para mais informações.
 
-[https://github.com/yourname/github-link](https://github.com/othonalberto/)
+[https://github.com/GabrielGM99](https://github.com/GabrielGM99/)
 
 ## Contributing
 
-1. Faça o _fork_ do projeto (<https://github.com/yourname/yourproject/fork>)
+1. Faça o _fork_ do projeto (<https://github.com/GabrielGM99/Simbologia/fork>)
 2. Crie uma _branch_ para sua modificação (`git checkout -b feature/fooBar`)
 3. Faça o _commit_ (`git commit -am 'Add some fooBar'`)
 4. _Push_ (`git push origin feature/fooBar`)
 5. Crie um novo _Pull Request_
-
-[npm-image]: https://img.shields.io/npm/v/datadog-metrics.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/datadog-metrics
-[npm-downloads]: https://img.shields.io/npm/dm/datadog-metrics.svg?style=flat-square
-[travis-image]: https://img.shields.io/travis/dbader/node-datadog-metrics/master.svg?style=flat-square
-[travis-url]: https://travis-ci.org/dbader/node-datadog-metrics
-[wiki]: https://github.com/seunome/seuprojeto/wiki

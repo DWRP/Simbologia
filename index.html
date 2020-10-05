@@ -27,10 +27,35 @@
         </header>
 
         <main class="main">
-            <div class="content"></div>
-            <section class="preview">TESTE</section>
-        </main>
+            <div class="content">
+                <div class="content_buttons">
+                    <button name="bt_poste" class="selected" onclick="button_type('bt_poste')">POSTE</button>
+                    <button name="bt_trafo" onclick="button_type('bt_trafo')">TRAFO</button>
+                    <button name="bt_condutor" onclick="button_type('bt_condutor')">CONDUTOR</button>
+                    <button name="bt_chave" onclick="button_type('bt_chave')">CHAVE</button>
+                    <button name="bt_outros" onclick="button_type('bt_outros')">OUTROS</button>
+                </div>
+                <div name="poste" class="content_types"></div>
+                <div name="trafo" class="content_types hidden"></div>
+                <div name="condutor" class="content_types hidden"></div>
+                <div name="chave" class="content_types hidden"></div>
+                <div name="outros" class="content_types hidden"></div>
+            </div>
+            <section class="preview">
+                <div class="preview_header">
+                   <h1>VISUALIZAÇÂO</h1>
+                </div>
+                <div class="preview_main">
+                    <center><label style="font-size: 20pt; font-weight: bold;">SIMBOLOGIAS</label></center>
+                </div>
+                
+                <div class="preview_footer">
+                    <button onclick="clearPreview()" style="background: #FF0000;">LIMPAR</button>
+                    <button onclick="download()">BAIXAR</button>
+                </div>
 
+            </section>
+        </main>
         <footer class="footer">
             <div>
                 <b>Developed by</b>
@@ -40,14 +65,14 @@
                 </a>
             </div>
             <div>
-                <b>Contributor by</b>
+                <b>Contributor</b>
                 <a href="https://github.com/DWRP">
                     <i class="fa fa-github fa-lg"></i>
                     <b>Douglas Walas</b>
                 </a>
             </div>
         </footer>
-
+        
     </div>
 
 </body>
